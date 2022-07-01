@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coding Quiz</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <div class="scores"><a href="highscores.html">View Highscores</a></div>
+
+  <div class="timer">Time: <span id="time"></span></div>
+
+    <div id="main-menu" class="main">
+      <h1>Coding Quiz!</h1>
+      <p>
+        Try to answer the following coding questions within the given time limit. 
+      </p>
+      <p>
+        Be careful though, get a question wrong and you will be deducted 10 seconds!
+      </p>
+      <button id="start" class="start-btn btn">Start Quiz</button>
+    </div>
+<div>
+  <div id="questions-container">
+    <div id="Question"></div>
+    <div id="answer-buttons" class="btn-grid"></div>
+      <p id="answer-1" class="btn"></p>
+      <p id="answer-2" class="btn"></p>
+      <p id="answer-3" class="btn"></p>
+      <p id="answer-4" class="btn"></p>
+    </div>
+  <!-- <div id="end-screen" class="hide"> 
+    <h2>Mouse Down!</h2>
+    <p>Your Final Score is<span id="final-score"></span>.</p> -->
+    <script src= "questions.js"></script>
+</body>
+</html>
